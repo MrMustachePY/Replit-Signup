@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("globe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Courier !important;
+}
+
+#main-wrapper {
+    text-align: center;
+}
+
+.branding-section {
+    padding: 25px;
+    display: flex;
+    /* Align logo and text horizontally */
+    align-items: center;
+    /* Vertical alignment */
+}
+
+.branding-logo {
+    width: 3%;
+    margin-right: 3px;
+    /* Space between logo and text */
+}
+
+.branding-text {
+    font-family: Courier;
+    font-size: 20px;
+    color: white;
+    margin-right: auto;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    margin-left: 35px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Content Sections */
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+/* Left Image Section */
+.left-image {
+    flex: 1;
+    min-width: 50%;
+    max-width: 600px;
+}
+
+.left-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Right Info Section */
+.right-info {
+    flex: 1;
+    max-width: 600px;
+    color: white;
+    text-align: left;
+}
+
+.right-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.right-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.action-btn {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: start;
+}
+
+.action-btn:hover {
+    background-color: #6a0dad;
+}
